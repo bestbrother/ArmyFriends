@@ -1,0 +1,365 @@
+@import '../../style/default.scss';
+
+
+.Register{
+	@include ContainerWrapper;
+	
+	padding : {
+		top : 5rem;
+	}
+}
+
+.RegisterHeader{
+	background-color : transparent;
+	margin-bottom : 3rem;
+	
+	.header-img{
+		display : block;
+		margin : 0 auto;
+		max-width: 1024px; 
+		height: auto;
+	}
+	
+
+}
+
+.Register1{
+	@include Container;
+	
+	background-color : #fff;
+	font-family: 'Nanum Barun Gothic';
+	
+	.check-all{
+		display : flex;
+		align-items : center;
+		
+		border-bottom : 1px solid #ddd;
+		
+		background-color : #f3f3f3;
+		padding : {
+			left : 2.3rem;
+			top : 0.8rem;
+			bottom : 0.8rem;
+		}
+		
+		.info{
+			font-family : inherit;
+			font-size : 0.9rem;
+			margin : 0;
+		}
+	}
+	
+	.TermList{
+		p{
+			margin : 0;
+		}
+		
+		padding : {
+			top : 1rem;
+			left : 2.3rem;
+			right : 2.3rem;
+		}
+		
+		.TermItem{
+			.checkbox{
+				margin-left : 0.2rem;
+				margin-right : 0.4rem;
+			}
+			
+			.checkbox-label{
+				font-family : inherit;
+			}
+			
+			.term-header{
+				display : flex;
+				align-items : center;
+				height : 3rem;
+				padding-left : 0.3rem;
+				
+				.title{
+					font-family : inherit;
+					font-size : 1rem;
+					font-weight : bold;
+				}
+				
+				.checkbox-wrapper{
+					margin-left : auto;
+				}
+				
+				.checkbox{
+					margin-left : 0;
+					margin-right : 0.4rem;
+				}
+				
+				.checkbox-label{
+					font-family : inherit;
+				}
+			}
+			
+			.term-content{
+				padding : {
+					top : 0.4rem;
+					bottom : 2rem;
+				}
+				.content-wrapper{
+					border : 1px solid #ccc;
+					height : 200px;
+					max-height : 250px;
+				}
+				
+				.term{
+					height : 200px;
+					max-height : 250px;
+					overflow-y : scroll;
+					padding : 1rem;
+				}
+			}
+		}
+	}
+	
+	.buttonWrapper{
+		display : flex;
+		justify-content : center;
+		align-items : center;
+		
+		padding : {
+			top : 2rem;
+			bottom : 3rem;
+		}
+		
+		button{
+			display : flex;
+			margin : {
+				left : 10px;
+				right : 10px;
+			}
+		}
+		
+		.return-button{
+			background-color : transparent;
+			border : 1px solid #ddd;
+		}
+		
+		.next-button{
+			background-color : $color-point;
+			color : white;
+		}
+	}
+	
+	.errorLog1{
+		color : red;
+		text-align : center;
+		margin : {
+			top : 2rem;
+			bottom : 1rem;
+		}
+		font-size : .75rem;
+	}
+}
+
+.Register2{
+	@include Container;
+	
+	background-color : #fff;
+	font-family: 'Nanum Barun Gothic';
+	
+	.input{
+		display : flex;
+		justify-content : center;
+		padding : {
+			top : 4rem;
+		}	
+	}
+	
+	.input-items{
+		margin : 0 auto;
+		
+		.input-item{
+			display : flex;
+			margin : {
+				
+			}
+			
+			.input-title{
+				width : 100px;
+				display : flex;
+				justify-content : flex-end;
+				align-items : center;
+				
+				.title{
+					margin : 0;
+					
+					font-family : inherit;
+					font-size : 0.9rem;
+					font-weight : bold;
+				}
+			}
+			
+			.input-content{
+				display : flex;
+				
+				.uk-input{
+					width : 350px;
+					margin-left : 0.9rem;
+				}
+				
+				.email-btn{
+					margin-left : 1.2rem;
+					background-color : $color-point;
+					color : white;
+				}
+				
+				.email-sent-btn{
+					background-color : transparent;
+					color : #999;
+					border : 1px solid #ddd;
+				}
+			}
+		}
+	}
+	
+	.errorLog2{
+		color : red;
+		font-size : 0.75rem;
+		margin : {
+			top : 0.3rem;
+			bottom : 1rem;
+			left : 150px;
+		}
+	}
+	
+	.errorLog2-exist{
+		margin : {
+			top : 0.3rem;
+			bottom : 0.3rem;
+		}
+	}
+	
+	.buttonWrapper{
+		display : flex;
+		justify-content : center;
+		align-items : center;
+		
+		margin : {
+			top : 2rem;
+		}
+		
+		padding : {
+			top : 2rem;
+			bottom : 3rem;
+		}
+		
+		button{
+			display : flex;
+			margin : {
+				left : 10px;
+				right : 10px;
+			}
+		}
+		
+		.return-button{
+			background-color : transparent;
+			border : 1px solid #ddd;
+		}
+		
+		.register-button{
+			background-color : $color-point;
+			color : white;
+		}
+	}
+}
+
+.Register3{
+	@include Container;
+	
+	background-color : #fff;
+	font-family: 'Nanum Barun Gothic';
+	
+	.user-info{
+		
+		margin : {
+			top : 5rem;
+		}
+		
+		.title{
+			font-family : inherit;
+			font-size : 2rem;
+			font-weight : bold;
+			
+			text-align : center;
+		}
+		
+		.content{
+			font-size : inherit;
+			font-size : 1.3rem;
+			font-weight : bold;
+			
+			text-align : center;
+			margin-top : 2rem;
+		}
+		
+		.point{
+			color : $color-point;
+		}
+	}
+	
+	.buttonWrapper{
+		display : flex;
+		justify-content : center;
+		align-items : center;
+		
+		margin : {
+			top : 2rem;
+		}
+		
+		padding : {
+			top : 2rem;
+			bottom : 3rem;
+		}
+		
+		button{
+			display : flex;
+			margin : {
+				left : 10px;
+				right : 10px;
+			}
+		}
+		
+		.return-button{
+			background-color : $color-point;
+			color : white;
+		}
+	}
+}
+
+.register-header{
+	p{
+		margin : 0;
+	}
+	
+	border-top : 2px solid $color-point;
+	border-bottom : 1px solid #ddd;
+	
+	font-family: 'Nanum Barun Gothic';
+	padding : {
+		top : 1.5rem;
+		left : 2.3rem;
+		bottom : 1.5rem;
+	}
+	
+	.title{
+		font-family : inherit;
+		font-size : 1.3rem;
+		font-weight : bold;
+	}
+	
+	.info-wrapper{
+		margin-top : 1rem;
+		
+		.info{
+			font-family : inherit;
+			font-size : 0.78rem;
+			color : #999;
+		}
+	}
+}

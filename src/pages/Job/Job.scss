@@ -1,0 +1,347 @@
+@import '../../style/_main.scss';
+
+@import '../../style/default.scss';
+
+.JobDetail{
+	background-color : #eef0f7;	
+	margin-top: 42px !important;
+	
+	border: 1px solid #ddd;
+	background-color : white;
+	font-family: 'Nanum Barun Gothic';
+	
+	.header{
+		width : 100%;
+		line-height : 60px;
+
+		font-family : 'Nanum Square';
+		font-size : 1.2rem;
+		font-weight : bold;
+
+		color : black;
+
+		background-color : #eef0f7;
+		border-top : 2px solid #3f5afe;
+		padding : {
+			left : 35px;
+		}
+
+	}
+
+	.job-info{
+		display : flex;
+		padding : {
+			left : 35px;
+			right : 35px;
+
+		}
+		.job-image{
+			height : 300px;
+		}
+		
+		
+		
+		.RecommendJobList{
+			width : 200px;
+			height : 300px;
+			margin-left : auto;
+			border: 1px solid #eee;
+			
+			overflow-y : auto;
+			
+			font-family : $font-main;
+			
+			a{
+				color : #666;
+				text-decoration : none;
+				
+				&:hover{
+					text-decoration : none;
+				}
+			}
+			
+			.RecommendHeader{
+				font-family : inherit;
+				font-weight : bold;
+				
+				background-color: #eef0f7;
+				margin-top : 0;
+				margin-bottom : 0.5rem;
+				
+				padding : {
+					top : 0.6rem;
+					bottom : 0.6rem;
+					left : 0.9rem;
+				}
+			}
+			
+			.RecommendJobItem{
+				margin : {
+					left : 0.5rem;
+					right : 0.5rem;
+					top : 0;
+					bottom : 0;
+				}
+				padding : {
+					top : 0.3rem;
+					bottom : 0.3rem;
+					left : 0.9rem;
+				}
+				
+				.name{
+					margin : 0;
+				}
+				
+				&.active{
+					background-color: #eef0f7;
+				}
+			}
+			
+			.scroll{	
+				overflow-y : auto;
+			}
+		}
+	}
+
+	.job-content{
+		width : 950px;
+		margin : 0 auto;
+		margin-top : 50px;
+		padding : 0;
+		border : 1px solid #ddd;
+
+		p{
+			margin : 0;
+		}
+
+		.view-index{
+			display : flex;
+			flex-wrap : nowrap;
+			border-bottom : 1px solid #231815;
+
+			.item{
+				// cursor
+				cursor : pointer;
+				
+				flex : 1;
+				line-height : 40px;
+				text-align : center;
+				border-right : 1px solid #ddd;
+
+				font-family : 'Nanum Square';
+				font-size : 0.95rem;
+				font-weight : bold;
+				color : black;
+
+				&:last-child{
+					border-right : 0;
+				}
+			}
+
+			.active{
+				background-color: #414b6b;
+				color: #ffffff;
+			}
+		}
+
+		.view-content{
+			height : 200px;
+			background-color : #eef0f7;
+			padding : {
+				top : 15px;
+			}
+
+			.job-text{
+				width : 900px;
+				height : 170px;
+				margin : 0 auto;
+				background-color : white;
+				border : 1px solid #ddd;
+				padding : 20px;
+			}
+		}
+	}
+
+	.link-title{
+		border-top : 2px solid #3f5afe;
+		background-color: #eef0f7;
+		line-height : 45px;
+
+		font-family : 'Nanum Square';
+		font-size : 0.95rem;
+		font-weight : bold;
+
+		padding : {
+			left : 35px;
+		}
+	}
+
+	.web-title{
+		margin-top : 65px;
+		margin-bottom : 0px;
+	}
+
+	.video-title{
+		margin-bottom : 0px;
+	}
+
+	.tip-title{
+		border-top : 2px solid #3f5afe;
+		background-color: #eef0f7;
+		height : 45px;
+
+		font-family : 'Nanum Square';
+		font-size : 0.95rem;
+		font-weight : bold;
+
+		padding : {
+			left : 35px;
+		}
+
+		.title{
+			margin : 0;
+			line-height : 45px;
+			float : left;
+		}
+
+		.write-btn{
+			line-height : 25px;
+			margin-top : 10px;
+			margin-left : auto;
+			margin-right : 35px;
+
+			background-color: #3e5afe;
+			color: white;
+			border-radius: 4px;
+
+			float : right;
+		}
+	}
+	
+	.link{
+		min-height : 130px;
+	}
+
+	.link-item{
+		display : flex;
+		min-height : 60px;
+		border-bottom : 1px solid #ddd;
+		text-decoration : none;
+
+		p{
+			margin : 0;
+		}
+		
+		.link-wrapper{
+			display : flex;
+			align-items : center;
+		}
+		
+		.thumbnail{
+			display : block;
+			height : 100px;	
+		}
+
+		.link-header{
+			padding-left : 35px;
+			color : black;
+			font-weight : bold;
+			font-family: 'Nanum Barun Gothic';
+		}
+
+		.link-content{
+			padding-left: 35px;
+			color : black;
+			font-family: 'Nanum Barun Gothic';
+		}
+
+		&:last-child{
+			border-bottom : 0;
+
+			// margin-bottom : 30px;
+		}
+	}
+	
+}
+
+.JobSearch{
+	background-color : #eef0f7;
+	width : 100%;
+	min-height : 1000px;
+	padding-bottom : 100px;
+	
+	font-family: 'Nanum Barun Gothic';
+
+	.JobSearchList{
+		margin-top: 42px !important;
+		border: 1px solid #ddd;
+		font-family: 'Nanum Barun Gothic';
+		background-color: white;
+			
+		width: 1024px;
+		margin: 0 auto;
+	}
+	
+	.JobSearchHeader{
+		border-top : 2px solid #3e5afe;
+		height : 80px;
+		box-shadow: 0 0 15px rgba(0,0,0,0.08);
+		
+		display : flex;
+		align-items : center;
+		
+		.title{
+			font-family: 'NanumSquare', sans-serif;
+			font-size : 23px;
+			color: #111;
+
+			line-height : 80px;
+			margin : 0;
+			margin-left : 40px;
+		}
+		
+		.JobSearchBar{
+			margin-left : auto;
+			margin-right : 2rem;
+		}
+		
+	}
+	
+	.JobSearchItem{
+		font-family: 'Nanum Barun Gothic';
+		
+		height : 100px;
+		
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 0.8rem;
+		padding-bottom: 0.65rem;
+		padding-left: 42px;
+		padding-right: 42px;
+		border-bottom: 1px solid #eee;
+		cursor: pointer;
+		
+		.name{
+			max-width: 650px;
+			overflow : hidden;
+			text-overflow: ellipsis;
+			line-height: 20px;
+			font-size: 17px;
+			font-weight : bold;
+			color: black;
+			font-family: inherit;
+		}
+		
+		.description{
+			margin-bottom : 0;
+			max-width: 900px;
+			overflow : hidden;
+			text-overflow: ellipsis;
+			font-size: 17px;
+			color: black;
+			font-family: inherit;
+			max-lines : 2;
+			white-space: nowrap;
+		}
+	}
+}

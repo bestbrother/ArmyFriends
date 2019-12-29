@@ -1,0 +1,88 @@
+@import '../../../style/_main.scss';
+
+.JobContainer{
+	@include BasicContainer;
+	font-family : $font-main;
+	margin-top : 20px;
+	
+	.JobContainerHeader{
+		width : 100%;
+		height : 45px;
+		border-bottom : 1px solid #eee;
+
+		.SortingButton{
+			// cursor
+			cursor: pointer;
+
+			line-height : 45px;
+			margin-left : 30px;
+			
+			&.active{
+				color : $color-primary;
+			}
+		}
+	}
+	
+	.JobList{
+		display : flex;
+		flex-wrap : wrap;
+		width : 100%;
+		padding-top : 2rem;
+			
+		.JobItem{
+			width : 180px;
+			margin-left : 20px;
+			margin-bottom : 20px;
+			border : 1px solid #ddd;
+			cursor : pointer;
+			
+			.topWrapper{
+				
+			}
+
+			.bottomWrapper{
+				padding : {
+					top : 15px;
+					left : 17px;
+					right : 17px;
+					bottom : 15px;
+				}
+			}
+			
+			.thumbnail{
+				height : 180px;
+			}
+
+			.title{
+				font-family : inherit;
+				font-size : 1.1rem;
+				font-weight : bold;
+				color : #000;
+			}
+
+			.description{
+				margin-bottom : 7px;
+				color : #000;
+			}
+
+			.info{
+				display : flex;
+				color : #000;
+
+				font-size : 0.85rem;
+
+				p{
+					margin : 0;
+				}
+
+				.views{
+					flex : 1;
+				}
+
+				.rate{
+					flex : 1;
+				}
+			}
+		}
+	}
+}

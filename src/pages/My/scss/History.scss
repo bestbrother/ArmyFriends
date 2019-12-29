@@ -1,0 +1,91 @@
+@import '../../../style/_main.scss';
+
+.History{
+	width : 950px;
+	min-height : 500px;
+	background-color : white;
+	font-family: $font-main;
+	
+	margin-left : 10px;
+	
+	.HistoryHeader{
+		border-top : 2px solid $color-primary;
+		
+		.HeaderTitle{
+			margin : 0;
+			line-height : 80px;
+			padding-left : 30px;
+			font-size : 22px;
+			font-weight : bold;
+			font-family : inherit;
+			color : #3d3d3d;
+		}
+		
+		.HeaderSubtitle{
+			margin : 0;
+			line-height : 50px;
+			padding-left : 30px;
+			font-size : 16.5px;
+			font-weight : bold;
+			font-family : inherit;
+			color : #3d3d3d;
+			background-color : $color-background;
+		}
+	}
+	
+	.HistoryJobList{
+		font-family: 'Nanum Barun Gothic';
+		display : flex;
+		flex-wrap: wrap;
+		padding-top : 20px;
+
+		.JobItem{
+			width : 180px;
+			margin-left : 20px;
+			margin-bottom : 20px;
+			border : 1px solid #ddd;
+
+			.image{
+				height : 180px;
+			}
+
+			.bottomWrapper{
+				padding : {
+					top : 15px;
+					left : 17px;
+					right : 17px;
+					bottom : 15px;
+				}
+			}
+
+			.title{
+				font-family : inherit;
+				font-size : 1.1rem;
+				font-weight : bold;
+				color : $color-text;
+			}
+
+			.description{
+				margin-bottom : 7px;
+				color : $color-text;
+			}
+
+			.info{
+				display : flex;
+				color : $color-text;
+
+				p{
+					margin : 0;
+				}
+
+				.views{
+					flex : 1;
+				}
+
+				.rate{
+					flex : 1;
+				}
+			}
+		}
+	}
+}

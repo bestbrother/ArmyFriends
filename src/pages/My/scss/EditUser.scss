@@ -1,0 +1,223 @@
+@import '../../../style/_main.scss';
+
+.EditUser{
+	width : 950px;
+	min-height : 600px;
+	background-color : white;
+	font-family: 'Nanum Barun Gothic';
+	margin :{
+		left : 10px;
+	}
+	
+	.errorLog{
+		color : red;
+		font-size : 0.75rem;
+		line-height : 1.4;
+		margin : 0;
+		margin-top : 1rem;
+	}
+	
+	.header{
+		border-top : 2px solid $color-primary;
+		
+		.header-title{
+			margin : 0;
+			line-height : 80px;
+			padding-left : 30px;
+			font-size : 22px;
+			font-weight : bold;
+			font-family : inherit;
+			color : #3d3d3d;
+			
+			border-bottom : 1px solid #ddd;
+		}
+	}
+	
+	.editUser{
+		padding : {
+			left : 30px;
+			right : 30px;
+			top : 40px;
+			bottom : 40px;
+		}
+		
+		.items{
+			
+		}
+		
+		.item{
+			display : flex;
+			width : 500px;
+			border-top : 1px solid #eee;
+			
+			.edit-title{
+				width : 100px;
+				line-height : 50px;
+				margin : 0;
+				text-align : center;
+				background-color: #f4f5f9;
+			}
+			.edit-content{
+				line-height : 50px;
+				margin : 0;
+				padding : {
+					left : 30px;
+				}
+				
+				.input-label{
+					
+					line-height : 25px;
+					color : black;
+					margin-top : 15px;
+					margin : 0;
+				}
+				
+				.input-box{
+					width : 150px;
+					height : 35px;
+				}
+				
+				.normal-button{
+					background : transparent;
+					border : 1px solid #ddd;
+					line-height : 35px;
+				}
+				
+				.done-button{
+					color : white;
+					border : 1px solid #485dd5;
+					background-color: #485dd5;
+					
+					margin-left : 15px;
+				}
+				
+				.overlap-btn{
+					margin-left : 15px;
+				}
+				
+				.label{
+					color : black;
+				}
+				
+				.buttonWrapper{
+					margin-top : 35px;
+					margin-bottom : 15px;
+				}
+				
+				.input-container{
+					display : flex;
+					margin-top : 15px;
+				}
+				.label-container{
+					display : flex;
+					width : 100px;
+					margin-right : 10px;
+					
+					.label{
+						margin-left : auto;
+						margin-bottom : 0;
+						line-height : 35px;
+					}
+					
+				}
+			}
+			
+			.nickname-btn{
+				margin-left : 15px;
+				background-color : white;
+				border : 1px solid #ddd;
+			}
+			
+			.password-btn{
+				background-color : white;
+				border : 1px solid #ddd;
+			}
+			
+			&:last-child{
+				border-bottom : 1px solid #eee;
+			}
+		}
+	}
+}
+
+.CheckPassword{
+	width : 950px;
+	min-height : 600px;
+	background-color : white;
+	font-family: 'Nanum Barun Gothic';
+	margin :{
+		left : 10px;
+	}
+	
+	.errorLog{
+		font-size : 0.75rem;
+		font-family : inherit;
+		text-align : center;
+		margin : {
+			top : 1rem;
+			bottom : 0;
+		}
+		color : red;
+	}
+	
+	.header{
+		border-top : 2px solid $color-primary;
+		
+		.header-title{
+			margin : 0;
+			line-height : 80px;
+			padding-left : 30px;
+			font-size : 22px;
+			font-weight : bold;
+			font-family : inherit;
+			color : #3d3d3d;
+			
+			border-bottom : 1px solid #ddd;
+		}
+	}
+	
+	.info{
+		text-align : center;
+		
+		margin-top : 150px;
+		font-size : 1rem;
+		font-family: 'Nanum Barun Gothic';
+	}
+	
+	.input-item{
+		display : flex;
+		margin : 0 auto;
+		width : 400px;
+		height : 40px;
+		border : 1px solid #ddd;
+		
+		.input-label{
+			width : 100px;
+			background-color: #eef0f7;
+			.title{
+				text-align : center;
+				line-height : 40px;
+			}
+		}
+		.input-box{
+			border : none;
+			width : 300px;
+			padding : 10px;
+		}
+	}
+	
+	.buttonWrapper{
+		display : flex;
+		justify-content : center;
+		
+		.login-btn{
+			margin-top : 40px;
+			background-color: #3e5afe;
+			color : white;
+			padding : {
+				left : 40px;
+				right : 40px;
+			}
+		}
+	}
+}

@@ -1,0 +1,119 @@
+@import '../../style/_main.scss';
+
+.Footer{
+	width : 100%;
+	margin : 0;
+	
+	background-color : $color-background;
+}
+
+.LoginWrapper{
+	padding-top : 100px;
+}
+
+.Login{
+	width : 900px !important;
+	margin : 0 auto;
+	
+	background-color : white;
+	
+	.form{
+		background-color : white;
+		display : flex;
+		justify-content : center;
+		border-top : 2px solid $color-primary;
+		
+		.input-container{
+			padding : {
+				top : 100px;
+				bottom : 100px;
+			}
+			width : 400px;
+		}
+		
+		.logo{
+			
+		}
+		
+		.logo-header{
+			height : 50px;
+			display : block;
+			margin : 0 auto;
+		}
+		
+		.logo-footer{
+			height : 50px;
+			display : block;
+			margin : 0 auto;
+			margin-top : 20px;
+			margin-bottom : 80px;
+		}
+		
+		.input-id{
+			
+		}
+		
+		.input-password{
+			
+		}
+		
+		.errorLog{
+			font-size : 0.75rem;
+			color : red;
+			text-align : center;
+		}
+		
+		.errorLog-login{
+			font-size : 0.75rem;
+			color : red;
+			margin : {
+				left : 1.5rem;
+				top : 0.3rem;
+				bottom : 0.5rem;
+			}
+		}
+		
+		.login-btn{
+			width : 100%;
+			background-color: $color-primary;
+			color : white;
+		}
+		
+		.show-error{
+			color : red;
+			font-size : 0.75rem;
+			
+			margin-top : 5px;
+			margin-left : 3px;
+		}
+		
+		.buttonWrapper{
+			margin-top : 30px;
+			display : flex;
+			
+			p{
+				margin : 0;
+			}
+			
+			.btn-1{
+				margin-left : 45px;
+			}
+			
+			.btn-2{
+				&:before{
+					content : "|";
+					margin-left : 15px;
+					margin-right : 15px;
+				}
+			}
+			
+			.btn-3{
+				&:before{
+					content : "|";
+					margin-left : 15px;
+					margin-right : 15px;
+				}
+			}
+		}
+	}
+}

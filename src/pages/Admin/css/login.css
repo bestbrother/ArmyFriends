@@ -1,0 +1,21 @@
+
+.admin-login .login-container{
+	width : 300px;
+	margin : 0 auto;
+}
+
+.admin-login .title-container{
+	margin-top : 250px;
+}
+
+.admin-login .title{
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.admin-login .input-box{
+	margin-bottom : 10px;
+}
+
+.admin-login .login-btn{
+	margin-top : 15px;
+}

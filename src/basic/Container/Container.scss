@@ -1,0 +1,9 @@
+@import '../../style/_main.scss';
+
+.ContainerWrapper{
+	@include ContainerWrapper;
+}
+
+.Container{
+	@include Container;
+}

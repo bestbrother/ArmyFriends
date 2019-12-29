@@ -1,0 +1,262 @@
+@import '../../../style/_main.scss';
+
+.PostDetail{
+	@include BasicContainer;
+	margin-top : 2rem !important;
+	border : 1px solid #ddd;
+	
+	font-family : $font-main;
+	
+	.PostDetailHeader{
+		padding : {
+			top : 30px;
+			bottom : 30px;
+			left : 30px;
+			right : 30px;
+		}
+		
+		.TopWrapper{
+			display : flex;
+			
+			.Title{
+				margin : 0;
+				font-family: inherit;
+				font-size: $size-big;
+				color: $color-text;	
+			}
+			
+			.buttonWrapper{
+				margin-left : auto;
+				
+				.Button{
+					color : $color-text;
+					background : none;
+					outline : none;
+					
+					border : 1px solid #ddd;
+					border-radius : 0.2rem;
+					
+					padding : {
+						top : 0.35rem;
+						bottom : 0.35rem;
+						left : 1rem;
+						right : 1rem;
+					}
+				}
+
+				.editButton{
+					margin-right : 0.5rem;
+				}
+
+				.deleteButton{
+
+				}
+			}
+		}
+		
+		.BottomWrapper{
+			display : flex;
+			margin-top : 15px;
+			
+			font-family: inherit;
+			font-size: $size-normal;
+			color: $color-grey;
+			
+			p{
+				margin : 0;
+			}
+			
+			.User{
+				
+			}
+			
+			.Date{
+				&:before{
+					content: "";
+					display: inline-block;
+					width: 1px;
+					height: 18px;
+					margin: 0 10px;
+					vertical-align: -3px;
+					background: #d7d7d7;
+				}
+			}
+			
+			.Views{
+				margin-left : auto;
+				margin-right : 10px;
+				
+				color: $color-text;
+				font-size : $size-normal;
+			}
+			
+			.CommentCount{
+				color: $color-text;
+				font-size : $size-normal;
+			}
+			
+			.ImageView{
+				margin-right : 5px;
+			}
+			
+			.ImageComment{
+				margin-left : 10px;
+				margin-right : 5px;
+			}
+		}
+		
+	}
+	
+	.ContentWrapper{
+		display : flex;
+		min-height : 300px;
+		border-top : 1px solid #eee;
+		padding : {
+			top : 23px;
+			bottom : 23px;
+			left : 30px;
+			right : 30px;
+		}
+		
+		font-family: $font-main;
+		font-size : $size-content;
+		color: $color-text;
+		
+		.Content{
+			width : 70%;
+		}
+	}
+
+	.CommentList{
+		font-family : $font-main;
+		font-size : $size-normal;
+		color : $color-text;
+		
+		border-top : 1.5px solid #3e5afe;
+		
+		.CommentListHeader{
+			background-color : #eee;
+			padding : {
+				top : 20px;
+				bottom : 20px;
+				left : 30px;
+				right : 30px;
+			}
+		}
+		
+		.CommentCountText{
+			color : $color-primary;
+		}
+		
+		.editComment{
+			display : flex;
+			margin-left : auto;
+
+			.edit{
+				margin : 0;
+				color : $color-grey;
+				cursor : pointer;
+
+				&::after{
+					content: "";
+					display: inline-block;
+					width: 1px;
+					height: 15px;
+					background-color: $color-grey;
+					margin: 0 10px;
+					vertical-align: -2px;
+				}
+			}
+
+			.delete{
+				margin : 0;
+				color : $color-grey;
+
+				cursor : pointer;
+			}
+		}
+		
+		.CommentItem{
+			border-top : 0.5px solid #eee;
+			
+			.Comment{
+				display : flex;
+				border-bottom : 1px solid #eee;
+				
+				padding : {
+					top : 20px;
+					bottom : 20px;
+					left : 30px;
+					right : 30px;
+				}
+				
+				.user{
+					margin : 0;
+				}
+				.content{
+					margin : 0;
+					&:before{
+						content: "";
+						display: inline-block;
+						width: 1px;
+						height: 18px;
+						margin: 0 20px;
+						vertical-align: -5px;
+						background: #d7d7d7;
+					}
+				}
+				
+			}
+		}
+		
+		.ReplyList{
+			padding : {
+				left : 30px;
+				right : 30px;
+			}
+			
+			.ReplyItem{
+				display : flex;
+				background-color : $color-palegrey;
+				border : 1px solid #ddd;
+				
+				margin : {
+					top : 25px;
+					bottom : 25px;
+					right : 20px;
+				}
+				padding : {
+					top : 15px;
+					bottom : 15px;
+					left : 20px;
+					right : 20px;
+				}
+				
+				.replyUser{
+					font-family: $font-point;
+					font-weight : 700;
+				}
+				
+				.replyContent{
+					font-family: $font-point;
+					
+					&:before{
+						content: "";
+						display: inline-block;
+						width: 1px;
+						height: 18px;
+						margin: 0 20px;
+						vertical-align: -5px;
+						background: #d7d7d7;
+					}
+				}
+			}
+		}
+	}
+}
+
+.PostDetailList{
+	.PostList{
+		margin-top : 0 !important;
+	}
+}

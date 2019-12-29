@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700,900');
+
+@font-face { 
+	font-family: 'Nanum Barun Gothic';
+	src: url('../assets/fonts/nanumbarungothic.ttf');
+}
+
+@font-face {
+	font-family : 'Nanum Square';
+	src : url('../assets/fonts/nanumsquare.ttf');
+}
+
+@font-face{
+	font-family : 'Binggrae Melona';
+	src : url('../assets/fonts/binggraemelona.ttf');
+}
+
+@font-face{
+	font-family : 'Binggrae Melona Bold';
+	src : url('../assets/fonts/binggraemelona_bold.ttf');
+}
+
+@font-face{
+	font-family : 'BNHannaPro';
+	src : url('../assets/fonts/bnhannapro.ttf');
+}
+
+@font-face{
+	font-family : 'Gabia Bombaram';
+	src : url('../assets/fonts/gabia_bombaram.ttf');
+}
+
+@font-face{
+	font-family : 'Gabia NapjackBlock';
+	src : url('../assets/fonts/gabia_napjakBlock.ttf');
+}
+
+@font-face{
+	font-family : 'Gabia Solmee';
+	src : url('../assets/fonts/gabia_solmee.ttf');
+}
+
+@font-face{
+	font-family : 'HS FallStory';
+	src : url('../assets/fonts/HSFallstory-regular.ttf');
+}
+
+@font-face{
+	font-family : 'HS FallStory Bold';
+	src : url('../assets/fonts/HSFallstory-bold.ttf');
+}
+
+@font-face{
+	font-family : 'HS Spring Regular';
+	src : url('../assets/fonts/HSSpring-1.0.ttf');
+}
+
+@font-face{
+	font-family : 'HS Spring Bold';
+	src : url('../assets/fonts/HSSpring-2.0.ttf');
+}
+
+@font-face{
+	font-family : 'IropkeBatang';
+	src : url('../assets/fonts/IropkeBatangM.ttf');
+}
+
+@font-face{
+	font-family : 'SDMiSaeng';
+	src : url('../assets/fonts/SDMiSaeng.ttf');
+}
+
+@font-face{
+	font-family : 'SDSwagger';
+	src : url('../assets/fonts/SDSwagger.ttf');
+}
+
+@font-face{
+	font-family : 'TmonMonsori';
+	src : url('../assets/fonts/TmonMonsori.ttf');
+}
+
+@font-face{
+	font-family : 'tvn FunStory';
+	src : url('../assets/fonts/tvn_FunStory_Regular.ttf');
+}
+
+@font-face{
+	font-family : 'tvn FunStory Bold';
+	src : url('../assets/fonts/tvn_FunStory_Bold.ttf');
+}
+
+@font-face{
+	font-family : 'tvn FunStory Light';
+	src : url('../assets/fonts/tvn_FunStory_Light.ttf');
+}

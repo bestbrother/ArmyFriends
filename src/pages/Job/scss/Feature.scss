@@ -1,0 +1,124 @@
+@import '../../../style/_main.scss';
+
+.FeatureContainer{
+	@include BasicContainer;
+	margin-top: 42px;
+	
+	border: 1px solid #ddd;
+	font-family : $font-main;
+	
+	.none{
+		display : none !important;
+	}
+	
+	.HeaderContainer{
+		display : flex;
+		height : 80px;
+		box-shadow: 0 0 15px rgba(0,0,0,0.08);
+		border-top : 2px solid #3e5afe;
+
+		.HeaderTitle{
+			font-family : $font-point;
+			font-size : $size-big;
+			color: $color-text;
+
+			line-height : 80px;
+			margin : {
+				top : 0;
+				bottom : 0;
+				left : 3rem;
+			}
+		}
+
+		.HeaderSubtitle{
+			font-family : $font-point;
+			font-size : $size-normal;
+			color: $color-grey;
+
+			line-height : 80px;
+			margin : {
+				top : 0;
+				bottom : 0;
+				left : 1.8rem;
+			}
+		}
+	}
+
+	.FeatureList{
+		.FeatureItem{
+			display : flex;
+			width : 1190px;
+			min-height : 65px;
+			
+			border-top : 1px solid #eee;
+			
+			.FeatureItemText{
+				width : 180px;
+				margin : 0;
+				padding-left : 25px;
+				padding-top : 18px;
+
+				background-color : #414b6b;
+				color : white;
+			}
+
+			.hide{
+				float : right;
+				margin-right : 10px;
+				color : #03ebff;
+			}
+		}
+		
+		.OptionList{
+			display : flex;
+			flex-wrap: wrap;
+
+			width : 840px;
+			padding-top : 21.5px;
+
+			.OptionItem{
+				font-family : inherit;
+				margin-bottom : 20px;
+
+				margin-left : 10px;
+				margin-right : 10px;
+			}
+
+			.OptionItemText{
+				color : black;
+			}
+
+			.OptionCheckbox{
+				margin-right : 5px;
+				margin-top : 0px;
+			}
+		}
+	}
+	
+	.isHide{
+		@include FlexAllCenter;
+		cursor: pointer;
+		background-color: $color-background2;
+		border-top : 1px solid #ddd;
+		padding : {
+			top : 0.65rem;
+			bottom : 0.65rem;
+		}
+
+		.isHideText{
+			margin : 0;
+		}
+
+		.isHideImageContainer{
+			display : flex;
+			align-items : center;
+		}
+
+		.isHideImage{
+			margin-left : 0.5rem;
+			height : 8px;
+			opacity : 0.6;
+		}
+	}
+
+}

@@ -1,0 +1,292 @@
+@import '../../../style/_main.scss';
+
+.JobDetail{
+	@include BasicContainer;
+	margin-top : 2rem !important;
+	border: 1px solid #ddd;
+	
+	font-family : $font-main;
+	font-size : $size-normal;
+	color : $color-text;
+	
+	.JobDetailHeader{
+		height : 60px;
+		background-color : $color-palegrey;
+		border-top : 2px solid $color-primary;
+		
+		.HeaderText{
+			font-size : 1.2rem;
+			font-family : inherit;
+			font-weight : 700;
+			line-height : 60px;
+			padding-left : 1.8rem;
+		}
+	}
+	
+	.JobInfo{
+		display : flex;
+		margin-top : 1.5rem;
+		padding : {
+			left : 35px;
+			right : 35px;
+
+		}
+		.JobImage{
+			height : 300px;
+		}
+	}
+	
+	.JobContent{
+		
+		width : 950px;
+		margin : 0 auto;
+		margin-top : 50px;
+		padding : 0;
+		border : 1px solid #ddd;
+		
+		p{margin : 0;}
+		
+		.View{
+			display : flex;
+			flex-wrap : nowrap;
+			border-bottom : 1px solid #231815;	
+		}
+		
+		.item{
+			// cursor
+			cursor : pointer;
+
+			flex : 1;
+			line-height : 40px;
+			text-align : center;
+			border-right : 1px solid #ddd;
+
+			font-family : $font-main;
+			font-size : 0.95rem;
+			font-weight : bold;
+			color : $color-text;
+
+			&:last-child{
+				border-right : 0;
+			}
+		}
+
+		.active{
+			background-color: #414b6b;
+			color: #ffffff;
+		}
+		
+		.ViewContent{
+			height : 200px;
+			background-color : $color-palegrey;
+			padding-top : 15px;
+
+			.JobDisplay{
+				width : 900px;
+				height : 170px;
+				margin : 0 auto;
+				background-color : white;
+				border : 1px solid #ddd;
+				padding : 20px;
+			}
+		}
+	}
+	
+	.LinkWrapper{
+		margin-top : 2rem;
+		margin-bottom : 2rem;
+		
+		.LinkTitle{
+			border-top : 2px solid $color-primary;
+			background-color: $color-palegrey;
+			line-height : 45px;
+
+			font-family : $font-main;
+			font-size : $size-normal;
+			font-weight : bold;
+			color : $color-text;
+
+			margin-bottom : 0;
+			padding-left : 35px;
+			
+			&.VideoLinkTitle{
+				margin-top : 4rem;
+			}
+		}
+		
+		.LinkItem{
+			display : flex;
+			min-height : 60px;
+			border-bottom : 1px solid #ddd;
+			text-decoration : none;
+			color : $color-text;
+			margin : 0;
+
+			.Link{
+				display : flex;
+				align-items : center;
+			}
+
+			.thumbnail{
+				display : block;
+				height : 100px;	
+			}
+
+			.LinkContent{
+				font-family: 'Nanum Barun Gothic';
+				font-size : $size-normal;
+				color : $color-text;
+				margin : 0;
+				padding-left: 35px;
+				
+			}
+		}
+	}
+	
+	.TipPostList{
+		font-family : $font-main;
+		margin-top : 4rem;
+		
+		.TipHeader{
+			@include FlexVerticalCenter;
+			border-top : 2px solid $color-primary;
+			background-color: $color-palegrey;
+			line-height : 45px;
+
+			font-family : $font-main;
+			font-size : 0.95rem;
+			font-weight : bold;
+
+			margin-bottom : 0;
+			padding-left : 35px;
+		}
+		
+		.HeaderText{
+			font-family : inherit;
+			font-size : $size-normal;
+			font-weight : bold;
+			color : $color-text;
+			margin : 0;
+		}
+		
+		.writeButton{
+			background-color: $color-primary;
+			color: white;
+			border-radius: 4px;
+			
+			margin-left : auto;
+			margin-right : 1rem;
+		}
+		
+		.PostItem{
+			padding: .8rem 42px .65rem;
+    		border-bottom: 1px solid #eee;
+    		cursor: pointer;
+			p{margin : 0;}
+			
+			font-family : $font-main;
+			font-size : $size-normal;
+			
+			.topWrapper{
+    			display: flex;
+				margin-bottom : .75rem;
+			}
+			.bottomWrapper{
+				display: flex;
+			}
+			
+			.title{
+				max-width: 740px;
+			}
+			.count{
+				color: $color-primary;
+    			margin-left: .15rem;
+			}
+			.writer{
+				
+			}
+			.content{
+				max-width: 700px;
+				white-space: nowrap;
+				overflow: hidden; 
+				text-overflow: ellipsis;
+			}
+			
+			.views{
+				margin-left : auto;
+				margin-right : 0.8rem;
+				
+				.viewImage{
+					margin-right : 0.2rem;
+				}
+			}
+			
+			.date{
+				
+			}
+		}
+	}
+}
+
+.RecommendJobList{
+	width : 200px;
+	height : 300px;
+	margin-left : auto;
+	border: 1px solid #eee;
+
+	overflow-y : auto;
+
+	font-size : 14px;
+	font-family : $font-main;
+
+	a{
+		color : #666;
+		text-decoration : none;
+
+		&:hover{
+			text-decoration : none;
+		}
+	}
+
+	.RecommendHeader{
+		font-family : inherit;
+		font-weight : bold;
+
+		background-color: #eef0f7;
+		margin-top : 0;
+		margin-bottom : 0.5rem;
+
+		padding : {
+			top : 0.6rem;
+			bottom : 0.6rem;
+			left : 0.9rem;
+		}
+	}
+
+	.RecommendJobItem{
+		cursor : pointer;
+		margin : {
+			left : 0.5rem;
+			right : 0.5rem;
+			top : 0;
+			bottom : 0;
+		}
+		padding : {
+			top : 0.3rem;
+			bottom : 0.3rem;
+			left : 0.9rem;
+		}
+
+		.name{
+			margin : 0;
+		}
+
+		&.active{
+			background-color: $color-palegrey;
+		}
+	}
+
+	.scroll{	
+		overflow-y : auto;
+	}
+}

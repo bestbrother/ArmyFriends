@@ -1,0 +1,113 @@
+@import '../../style/default.scss';
+
+
+
+.SearchWrapper{
+	display : flex;
+	justify-content : center;
+	
+	padding : {
+		top : 2rem;
+		bottom : 2rem;
+	}
+}
+
+.SearchWrapperJob{
+	height : 80px;
+	display : flex;
+	align-items : center;
+	margin : {
+		left : auto;
+		right : 2rem;
+	}
+	
+}
+
+.Search{	
+	position : relative;
+}
+
+.SearchInput{
+	position: relative;
+	
+	width : 350px;
+	height : 40px;
+	margin : 0 auto;
+	display : block;
+	padding : {
+		left : 110px;
+		right : 40px;
+		top : 0.6rem;
+		bottom : 0.6rem;
+	}
+	border : 2px solid $color-point;
+	
+}
+
+.SearchInput2{
+	padding : {
+		left : 70px;
+	}
+}
+
+.SelectInput{
+	width : 100px;
+	height : 35px;
+	padding : {
+		left : 5px;
+		top : 0.6rem;
+		bottom : 0.6rem;
+	}
+	
+	position: absolute;
+	top : 2.5px;
+	left : 2.5px;
+	
+	border : none;
+	transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
+	
+	border-radius: 0px; /* iOS 둥근모서리 제거 */ 
+	// -webkit-appearance: none; /* 네이티브 외형 감추기 */
+	// background: url('../../') no-repeat 95% 50%; /* 네이티브 화살표 대체 */
+
+	&:focus{
+		outline: none;
+	}
+	
+	.item{
+		padding : 0.5rem;
+	}
+	
+}
+
+.SelectInput2{
+	height : 35px;
+	padding : {
+		left : 5px;
+		top : 0.55rem;
+		bottom : 0.6rem;
+	}
+	
+	position: absolute;
+	top : 2.5px;
+	left : 4px;
+	
+	opacity : 0.6;
+}
+
+.img{
+	// cursor
+	cursor: pointer;
+	
+	width : 26px;
+	height : 24.5px;
+	
+	position : absolute;
+	top : 7.75px;
+	right : 6px;
+}
+
+.search-btn{
+	display : none;
+}

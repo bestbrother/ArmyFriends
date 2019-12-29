@@ -1,0 +1,56 @@
+.AdminUser{
+	.search{
+		
+	}
+	
+	.form{
+		display : flex;
+	}
+	
+	.select{
+		width : 120px;
+	}
+	
+	.input{
+		width : 300px;
+		margin : {
+			left : 10px;
+			right : 10px;
+		}
+	}
+	
+	.mail{
+		margin : {
+			top : 0;
+			bottom : 0;
+			left : 10px;
+			right : 10px;
+		}
+	}
+	
+	.button{
+		
+	}
+}
+
+.AdminUserDetail{
+	.user-box{
+		font-size : 1.2rem;
+		margin : {
+			top : 10px;
+			bottom : 10px;
+		}
+		
+		.title{
+			
+		}
+		
+		.user-content{
+			&:before{
+				content : "|";
+				margin-left : 10px;
+				margin-right : 10px;
+			}
+		}
+	}
+}

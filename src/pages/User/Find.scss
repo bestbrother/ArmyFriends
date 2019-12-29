@@ -1,0 +1,222 @@
+@import '../../style/default.scss';
+
+.FindContainer{
+	background-color : #eef0f7;
+	width : 100%;
+	min-height : 100vh;
+}
+
+
+.Find{
+	margin-top : 42px !important;
+	background-color : white;
+	border-top : 2px solid #4259fe;
+	
+	.errorLog{
+		font-size : 0.75rem;
+		color : red;
+		text-align : center;
+		margin : 0;
+		margin-top : 0.5rem;
+		margin-bottom : 0.5rem;
+	}
+	
+	.topWrapper{
+		font-family: 'Nanum Barun Gothic';
+		border-bottom : 1px solid #ddd;
+		padding : {
+			bottom : 25px;
+		}
+		
+		.title-wrapper{
+			display : flex;
+			align-items : center;
+			padding : {
+				left : 35px;
+				top : 25px;
+			}
+			
+			.title{
+				margin : 0;
+				font-size : 1.3rem;
+				font-weight : bold;
+				font-family : inherit;
+			}
+			
+			.title-info{
+				margin : 0;
+				font-size : 0.9rem;
+				font-family : inherit;
+				margin-left : 25px;
+			}
+		}
+		
+		.info-wrapper{
+			padding : {
+				left : 35px;
+				top : 20px;
+			}
+			
+			.info{
+				margin : 0;
+				font-family : inherit;
+				font-weight : normal;
+				font-size : 0.8rem;
+				color : #999;
+			}
+		}
+	}
+	
+	.bottomWrapper{
+		font-family: 'Nanum Barun Gothic';
+		padding : {
+			top : 80px;
+			bottom : 80px;
+		}
+		
+		.email-wrapper{
+			margin-bottom : 0.5rem !important;
+		}
+		
+		.input-wrapper{
+			display : flex;
+			width : 500px;
+			margin : 30px auto;
+			
+			
+			.input-label{
+				display : flex;
+				align-items : center;
+				width : 100px;
+				font-family : inherit;
+				font-weight : bold;
+				font-size : 1rem;
+				color : #222;
+			}
+			
+			.input-text{
+				margin-left : auto;
+			}
+			
+			.input-box{
+				margin-left : 25px;
+			}
+			
+			.input{
+				width : 300px;
+			}
+			
+			
+		}
+		
+		.button{
+			font-family : inherit;
+			font-size : 18px;
+			width : 300px;
+			background-color : #4259fe;
+			color : white;
+			padding : {
+				top : 2.5px;
+				bottom : 2.5px;
+			}
+		}
+		
+		.link-wrapper{
+			display : flex;
+			justify-content : center;
+			
+			width : 500px;
+			margin : 0 auto;
+			
+			.link-id{
+				margin : 0;
+				margin-left : 60px;
+				color : #888;
+			}
+			
+			.link-password{
+				margin : 0;
+				color : #888;
+				
+				&:before{
+					content: "|";
+					margin-left: 15px;
+					margin-right: 15px;
+					color : #888;
+				}
+			}
+		}
+		
+		.idWrapper{
+			font-family: 'Nanum Barun Gothic';
+			
+			.id-info{
+				font-family : inherit;
+				font-size : 1.35rem;
+				font-weight : bold;
+				text-align : center;
+			}
+			
+			.id{
+				color : $color-point;
+			}
+		}
+		
+		.loginWrapper{
+			display : flex;
+			justify-content : center;
+				
+			font-family: 'Nanum Barun Gothic';
+			
+			margin-top : 150px;
+			margin-bottom : 2rem;
+			
+			.button{
+				display : block;
+				width : 200px;
+				font-family : inherit;
+				font-size : 1rem;
+			}
+		}
+		
+		.linkWrapper{
+			display : flex;
+			justify-content : center;
+			
+			width : 500px;
+			margin : 0 auto;
+			
+			.link-id{
+				margin : 0;
+				color : #888;
+			}
+			
+			.link-password{
+				margin : 0;
+				color : #888;
+				
+				&:before{
+					content: "|";
+					margin-left: 15px;
+					margin-right: 15px;
+					color : #888;
+				}
+			}
+		}
+	}
+}
+
+.FindPasswordDone{
+	background-color : rgba(0,0,0,0.7);
+	bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+	
+	.ok-btn{
+		background-color : white;
+		color : #333;
+		border : 1px solid #ddd;
+	}
+}

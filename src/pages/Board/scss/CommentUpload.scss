@@ -1,0 +1,66 @@
+@import '../../../style/_main.scss';
+
+.CommentUploadContainer{
+	padding : 2rem;
+	border-top : 1px solid #ddd;
+}
+
+.CommentUpload{
+	padding : 1rem;
+	background : $color-palegrey;
+	border : 1px solid #ddd;
+	
+	.submit{
+		display : flex;	
+	}
+	
+	.unknown{
+		width : 8%;
+		
+		.unknown-checkbox{
+			
+		}
+		
+		.unknown-label{
+			font-size : $size-normal;
+			margin-left : 0.3rem;
+		}
+	}
+	
+	.UploadInput{
+		min-height : 100px;
+		line-height : 1.2;
+		padding : 0.45rem;
+	}
+	
+	.CommentButton{
+		display : flex;
+		justify-content : flex-end;
+		margin-top : 0.6rem;
+		
+		.Button{
+			background : white;
+			outline : none;
+			border : 1px solid #ccc;
+			border-radius : 0.25rem;
+			padding : {
+				top : 0.08rem;
+				bottom : 0.08rem;
+				left : 1.3rem;
+				right : 1.3rem;
+			}
+			
+		}
+		
+		.UploadButton{
+			background-color : $color-primary;
+			color : white;
+			
+			margin-right : 0.9rem;
+		}
+		
+		.CancelButton{
+			
+		}
+	}
+}

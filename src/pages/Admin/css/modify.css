@@ -1,0 +1,83 @@
+.job-modify{
+	width : 100%;
+}
+
+.job-modify .modify-content{
+}
+
+.job-modify .editor-item{
+	width : 100%;
+	float : left;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+.job-modify .editor-title1{
+	float : left;
+	line-height : 50px;
+	margin-right : 20px;
+}
+
+.job-modify .editor-title2{
+	float : left;
+	line-height : 180px;
+	margin-right : 20px;
+}
+
+
+.job-modify .editor-content{
+	width : 80%;
+	float : left;
+}
+
+.job-modify .editor-input{
+	height : 50px;
+}
+
+.job-modify .editor-textarea{
+	height : 180px;
+}
+
+.job-modify .job-title{
+	font-weight : bold;
+	margin-top : 10px;
+	margin-bottom : 25px;
+}
+
+.job-modify .job-item{
+	margin-left : 20px;
+}
+
+.job-modify .job-item-title{
+	font-weight : bold;
+	margin-top : 20px;
+	margin-bottom : 10px;
+}
+
+.job-modify .option{
+	margin-left : 5px;
+	margin-right : 7px;
+}
+
+.job-modify .option-item{
+	margin-top : 5px;
+	margin-bottom : 5px;
+	margin-left : 25px;
+}
+
+.job-modify .option-title{
+	margin-left : 2px;
+}
+
+.job-modify .link-c{
+	margin-top : 10px;
+	margin-bottom : 5px;	
+}
+
+.job-modify .link-button{
+	margin-top : 10px;
+}
+
+.job-modify .link-info{
+	color : red;
+}

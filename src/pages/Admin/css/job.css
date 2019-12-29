@@ -1,0 +1,39 @@
+.jobHome .table{
+	max-width : 1250px;
+	padding : 30px;
+}
+
+.jobHome .btn-container{
+	margin-top : 15px;
+	margin-bottom : 15px;
+	margin-left : 10px;
+}
+
+.jobHome .btn{
+	margin-right : 10px;
+}
+
+.jobHome .input-big{
+	width : 300px;
+}
+
+.jobHome .input-small{
+	width : 150px;
+	margin-left : 10px;
+	margin-right : 10px;
+	margin-top : 7px;
+}
+
+.jobHome .admin-info{
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+.jobHome .info-save{
+	
+}
+
+.jobHome .info-delete{
+	color : red;
+}
+

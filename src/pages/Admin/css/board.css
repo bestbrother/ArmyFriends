@@ -1,0 +1,116 @@
+.board .board-search{
+	margin-left : 10px;
+	margin-top : 15px;
+	margin-right : 10px;
+	margin-bottom : 20px;
+}
+
+.board .form-select{
+	width : 120px;
+	float : left;
+}
+
+.board .form-input{
+	width : 300px;
+	float : left;
+	margin-left : 20px;
+}
+
+.board .form-btn{
+	margin-left : 20px;
+	float : left;
+}
+
+.board .form-delete{
+	margin-left : 10px;	
+}
+
+.board .form-upload{
+	margin-left : 10px;
+}
+
+.board .board-content{
+	width : 100%;
+	clear : left;
+	
+	margin-top : 15px;
+	padding : 15px;
+}
+
+.board .post-title{
+	margin : 0;
+}
+
+.board .post-content{
+	margin-top : 10px;
+}
+
+.admin-post .post-title{
+	font-size : 1.7rem;
+	font-weight : 700;
+	font-family: 'Noto Sans KR', sans-serif;
+	color : black;
+	
+}
+
+.admin-post .post-info{
+	font-size : 1rem;
+	font-weight : 400;
+}
+
+.admin-post .post-content{
+	font-size : 1.1rem;
+	font-weight : 400;
+	color : black;
+	min-height : 40vh;
+}
+
+.admin-post .post-comment{
+	margin : 0;
+	padding-top : 10px;
+	padding-bottom : 5px;
+	
+	width : 100%;
+	float : left;
+}
+
+.admin-post .post-reply{
+	margin : 0;
+	margin-left : 20px;
+	padding-top : 10px;
+	
+	width : 100%;
+	float : left;
+	
+}
+
+.admin-post .comment-name{
+	margin-right : 10px;
+}
+.admin-post .comment-content{
+	
+}
+
+.admin-post .comment-info{
+	width : 90%;
+	float : left;
+}
+
+.admin-post .comment-delete{
+	width : 10%;
+	float : left;
+}
+
+.board-upload .title-upload{
+	margin-top : 15px;
+	margin-bottom : 15px;
+}
+
+.board-upload .ql-container{
+	margin-bottom : 20px;
+	min-height : 200px;
+}
+
+.board-upload .button-upload{
+	
+}

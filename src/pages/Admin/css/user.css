@@ -1,0 +1,35 @@
+.admin-user .form-select{
+	width : 100px;
+}
+
+.admin-user .form-input{
+	margin-left : 20px;
+	width : 250px;
+}
+
+.admin-user .form-mail{
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+.admin-user .form-btn{
+	
+}
+
+.admin-user-detail .user-box{
+	padding : 10px;
+}
+
+.admin-user-detail .user-title{
+	font-weight : 700;
+	font-size : 1.2rem;
+	color : black;
+}
+
+.admin-user-detail .user-content{
+	font-weight : 400;
+	font-size : 1.2rem;
+	color : #333;
+	
+	margin-left : 20px;
+}

@@ -1,0 +1,134 @@
+.UploadEdit{
+	background-color : #eef0f7;
+	width : 100%;
+	
+	font-family: 'Nanum Barun Gothic';
+	
+	display : flex;
+	justify-content : center;
+	
+	padding : {
+		top : 40px;
+		bottom : 100px;
+	}
+}
+
+.none{
+	display : none !important;
+}
+
+.leftSection{
+	width : 800px;
+	border : 1px solid #ddd;
+	font-family: 'Nanum Barun Gothic';
+	background-color : white;
+	
+	.upload-title{
+		border-top : 2px solid #3d5afe;
+		background-color : #eef0f7;
+		font-size : 1.2rem;
+		font-family : inherit;
+		font-weight : bold;
+		padding : {
+			left : 35px;
+			top : 15px;
+			bottom : 15px;
+		}
+	}
+	
+	.input-title{
+		width : 92%;
+		margin : {
+			top : 15px;
+			left : 35px;
+			right : 35px;
+		}
+		
+	}
+	
+	.label{
+		font-size : 0.9rem;
+		font-family : inherit;
+		color : #999;
+		padding : {
+			left : 40px;
+		}
+		margin : {
+			top : 10px;
+			bottom : 15px;
+		}
+	}
+	.infoWrapper{
+		display : flex;
+	}
+	
+	.unknownWrapper{
+		margin-top : 10px;
+		margin-left : auto;
+		margin-right : 37px;
+		
+		.unknown-text{
+			margin-left : 5px;
+			color : #999;
+		}
+	}
+	
+	.buttonWrapper{
+		display : flex;
+		margin : {
+			left : 35px;
+			right : 35px;
+			top : 20px;
+			bottom : 35px;
+		}
+		
+		.upload-btn{
+			margin-left : auto;
+			background-color : #3d5afe;
+			color : white;
+		}
+		
+		.cancel-btn{
+			background-color : white;
+			border : 1px solid #ddd;
+			padding : {
+				left : 40px;
+				right : 40px;
+			}
+		}
+	}
+	
+	.quill{
+		margin : {
+			left : 35px;
+			right : 35px;
+		}
+	}
+	
+	.ql-container {
+		background: #fefcfc;
+		
+	}
+	
+	.ql-editor {
+		min-height : 300px;
+		max-height : 500px;
+	}
+}
+
+.rightSection{
+	.AdContainer{
+		background-color : grey;
+		width : 200px;
+		height : 600px;
+		margin-left : 50px;
+	}
+}
+
+
+.ql-font-Raleway {
+  font-family: "Raleway";
+}
+.ql-font-Roboto {
+  font-family: "Roboto";
+}

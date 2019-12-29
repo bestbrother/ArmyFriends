@@ -1,0 +1,53 @@
+/* FONTS */
+$font-main : 'Nanum Barun Gothic';
+$font-point : 'NanumSquare', sans-serif;
+
+/* COLORS */
+$color-primary : #3e5afe;
+$color-background : #eef0f7;
+$color-background2 : #fbfbfb;
+
+$color-text : #333;
+$color-grey : #848484;
+$color-palegrey : #eef0f7;
+	
+
+/* SIZE */
+$size-big : 23px;
+$size-normal : 16px;
+$size-small : 14px;
+$size-content : 20px;
+
+$size-list : 18px;
+$size-list-small : 14px;
+
+@mixin ContainerWrapper{
+	width : 100%;
+	min-height : 100vh;
+	background-color : $color-background;
+	padding : {
+		bottom : 100px;
+	}
+}
+
+@mixin Container{
+	width : 1024px;
+	margin : 0 auto;
+	
+	font-family : $font-main;
+}
+
+@mixin BasicContainer{
+	background-color : white;
+}
+
+@mixin FlexAllCenter{
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+@mixin FlexVerticalCenter{
+	display : flex;
+	align-items : center;
+}

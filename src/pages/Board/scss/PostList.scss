@@ -1,0 +1,126 @@
+@import '../../../style/_main.scss';
+
+.PostList{
+	@include BasicContainer;
+	margin-top : 2.5rem !important;
+	
+	border : 1px solid #ddd;
+	font-family: $font-main;
+	
+	.PostListHeader{
+		@include FlexVerticalCenter;
+		font-family : $font-point;
+		
+		height : 80px;
+		box-shadow: 0 0 15px rgba(0,0,0,0.08);
+		
+		.Title{
+			font-family: inherit;
+			font-size : $size-big;
+			font-weight : 700;
+			color: $color-text;
+			
+			margin-left : 3.3rem;
+			margin-bottom : 0;
+		}
+		.Subtitle{
+			font-family: inherit;
+			font-size : $size-normal;
+			color: $color-grey;
+			
+			margin-left : 1.15rem;
+		}
+		.ImageWrite{
+			margin-left : auto;
+			margin-right : 3rem;
+			
+			padding : 0.3rem;
+			border : 1px solid #ccc;
+			border-radius : 10px;
+
+			cursor : pointer;
+		}
+		
+		.info{
+			margin-right : 3.3rem;
+			cursor : pointer;
+		}
+	}
+	
+	.PostItem{
+		font-family : $font-main;
+		border-bottom : 1px solid #eee;
+		cursor : pointer;
+		
+		padding : {
+			left : 3.3rem;
+			right : 3.3rem;
+			top : 0.9rem;
+			bottom : 0.75rem;
+		}
+		
+		.topWrapper{
+			max-width : 740px;
+			display : flex;
+			
+			.title{
+				max-width : 650px;
+				overflow : hidden;
+				overflow-x : hidden;
+				text-overflow : ellipsis;
+				line-height : 20px;
+				
+				font-size : $size-list;
+				color : $color-text;
+				font-family : inherit;
+			}
+			.writer{
+				margin-left : auto;
+				line-height : 20px;
+				
+				font-size : $size-list;
+				color : $color-text;
+				font-family : inherit;
+			}
+
+			.comment{
+				color : $color-primary;
+				margin-left : 0.15rem;
+			}
+		}
+		.bottomWrapper{
+			display : flex;
+			margin-top : 0.75rem;
+			margin-bottom : 0rem;
+
+			.content{
+				line-height : 20px;
+				font-size : $size-normal;
+				
+				color: $color-grey;
+				font-family : inherit;
+			}
+			.date{
+				line-height : 20px;
+				font-family : inherit;
+				color: $color-grey;
+			}
+			.views{
+				margin-left : auto;
+				line-height : 20px;
+				margin-right : 1rem;
+				font-family : inherit;
+				color: $color-text;
+			}
+			.ImageViews{
+				margin-right : 3px;
+			}
+		}
+
+		.from{
+			color: #848484;
+			margin-top : 0.2rem;
+		}
+	}
+	
+}

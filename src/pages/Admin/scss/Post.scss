@@ -1,0 +1,123 @@
+.AdminPost{
+	
+	width : 800px;
+	
+	
+	.post-content{
+		min-height : 300px;
+	}
+	.CommentItem{
+		background-color: #eef0f7;
+		border-radius : 5px;
+		
+		margin: {
+			top : 5px;
+			bottom : 10px;
+		}
+		
+		.topWrapper{
+			display : flex;
+			margin : 0;
+			padding : {
+				top : 1rem;
+				left : 30px;
+				right : 30px;
+			}
+			p{
+				margin-top : 0;
+				margin-bottom : 0;
+			}
+		}
+		
+		.bottomWrapper{
+			padding : {
+				
+				bottom : 1rem;
+				left : 30px;
+				right : 30px;
+			}
+		}
+		
+		.name{
+			
+		}
+		
+		.date{
+			margin-left : auto;
+		}
+		
+		.delete{
+			margin-right : 10px;
+			margin-left : 10px;
+		}
+		
+		.content{
+			width : 100%;
+			
+			padding : 0;
+			margin : 0;
+			float : none;
+		}
+	}
+	
+	.ReplyItem{
+		border-radius : 5px;
+		margin: {
+			top : 5px;
+			bottom : 10px;
+		}
+		
+		.topWrapper2{
+			display : flex;
+			margin-top : 1rem;
+			margin-bottom : 0.5rem;
+			
+			padding : {
+				left : 60px;
+				right : 50px;
+			}
+			p{
+				margin-top : 0;
+				margin-bottom : 0;
+			}
+			
+			
+		}
+		
+		.bottomWrapper2{
+			border-bottom : 1px solid #ddd;
+			
+			padding : {
+				left : 60px;
+				right : 50px;
+			}
+		}
+		
+		.name{
+			
+		}
+		
+		.date{
+			margin-left : auto;
+		}
+		
+		.delete{
+			margin-right : 10px;
+			margin-left : 10px;
+		}
+		
+		
+		
+		.content{
+			width : 100%;
+			
+			padding : 0;
+			margin : 0;
+			float : none;
+			
+			margin-top : 0.5rem;
+			margin-bottom : 1rem;
+			
+		}
+	}
+}

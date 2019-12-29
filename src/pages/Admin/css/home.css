@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Noto+Sans+KR&display=swap');
+
+/*
+	font-family: 'Black Han Sans', sans-serif;
+	font-family: 'Do Hyeon', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
+*/
+
+.admin-home .navbar{
+	width : 100%;
+	height : 65px;
+	float : left;
+	
+	box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.admin-home .navbar-title{
+	margin : 0;
+	line-height : 65px;
+	font-family: 'Do Hyeon', sans-serif;
+	
+	margin-left : 20px;
+}
+
+.admin-home .drawer{
+	width : 200px;
+	height : calc(100vh - 65px);
+	
+	float : left;
+	/*box-shadow: 0 5px 15px rgba(0,0,0,0.08);*/
+	background-color : #F7F7F7;
+	
+	-moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.2);
+   -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+   box-shadow:         inset 0 0 10px rgba(0,0,0,0.2);
+}
+
+.admin-home .drawer-box{
+	margin : 0;
+	padding-top : 20px;
+	padding-left : 17px;
+	padding-right : 17px;
+	padding-bottom : 10px;
+}
+
+.admin-home .drawer-title{
+	margin-bottom : 10px;
+	
+	font-size : 1.2rem;
+	font-weight : 700;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: black;
+}
+
+.admin-home .drawer-item{
+	margin : 0;
+	margin-bottom : 5px;
+	font-size : 1rem;
+	font-weight : 400;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #666;
+}
+
+.admin-home .drawer-sub-item{
+	margin : 0;
+	margin-bottom : 5px;
+	font-size : 1rem;
+	font-weight : 400;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #666;
+}
+
+.drawer-item::before{
+	content : "-";
+	margin-left : 10px;
+	margin-right : 7px;
+}
+
+.drawer-sub-item::before{
+	content : "-";
+	margin-left : 30px;
+	margin-right : 7px;
+}
+
+.admin-home .content{
+	float : left;
+	width: calc(100% - 200px);
+	
+	padding : 20px;
+}
+
+.admin-home .page-title{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size : 1.5rem;
+	font-weight : 700;
+	
+	color : black;
+}
+
+.admin-home .job-checkbox{
+	margin-right : 6px;
+}
+
+.admin-home .job-settings{
+	margin-top : 15px;
+	
+}
+
+.admin-home .job-add-input{
+	width : 200px;
+}
+
+.admin-home .job-add-btn{
+	margin-left : 12px;
+}
+
+.admin-home .job-delete-btn{
+	margin-left : 12px;
+}
+
+.admin-home .job-content{
+	margin-top : 15px;
+}
+
+.admin-home .checkbox{
+	margin-right : 10px;
+	
+}
